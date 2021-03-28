@@ -7,7 +7,7 @@ const GlobalStyles = createGlobalStyle`
 		--color-linkedin: #2867b2;
 
 		--color-grey: #37322E;
-		--color-grey-light: #EBEBEB;
+		--color-grey-light: #DFD7D7;
 
 		--color-white: #ffffff;
 		--color-black: #000000;
