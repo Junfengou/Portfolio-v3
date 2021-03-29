@@ -6,6 +6,8 @@ const TechnologyStyles = styled.section`
     justify-content: space-evenly;
     align-items: center;
     background: var(--color-orange);
+    padding: 2rem;
+
     .title {
         width: 100%;
         display: flex;

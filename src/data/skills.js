@@ -11,7 +11,7 @@ export const skillsData = [
     },
     {
        phrase: "Techs I familiar with",
-       items: [ rest, gatsby, graphql, mongodb, nextjs, python]
+       items: [ rest, gatsby, graphql, mongodb, nextjs, python, django]
     },
     {
        phrase: "Techs I'm exploring",

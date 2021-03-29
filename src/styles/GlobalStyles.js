@@ -45,7 +45,7 @@ const GlobalStyles = createGlobalStyle`
 
 		--weight-thin: 300;
 		--weight-rg: 400;
-		--weight-bold: 700;
+		--weight-bold: 550;
 
 		--text-xs: 1.2rem;
 		--text-sm: 1.6rem;

@@ -1,11 +1,11 @@
 export const csharp = {
     logo: require('./csharp.svg'),
-    title: "Csharp"
+    title: "C#"
  }
 
  export const dotnet = {
     logo: require('./dotnet.svg'),
-    title: "Dotnet"
+    title: ".NET"
  }
 
  export const sql = {
