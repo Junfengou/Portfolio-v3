@@ -1,7 +1,6 @@
 import styled from "styled-components"
 
 const ProjectStyles = styled.div`
-    height: 90vh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 15rem 1fr;
@@ -21,11 +20,10 @@ const ProjectStyles = styled.div`
     .contents {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-flow: wrap;
         justify-content: center;
         width: 100%;
         max-width: 120rem;
-        gap: 1rem;
     }
 
     

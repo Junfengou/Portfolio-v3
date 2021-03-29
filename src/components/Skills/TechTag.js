@@ -29,7 +29,7 @@ const SkillItemStyles = styled.div`
     justify-content: center;
     align-items: center; 
     flex-direction:column;
-    width: 50%;
+    width: 100%;
     padding: 1rem;
     gap: 2rem;
     /* border: solid red; */
@@ -43,6 +43,7 @@ const SkillItemStyles = styled.div`
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        width: 100%;
         gap: 2rem;
         /* border: solid blue; */
         

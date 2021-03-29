@@ -18,14 +18,14 @@ const TechnologyStyles = styled.section`
         padding: 3rem 0;
     }
     .techs {
-        width: 100%;
+        width: 70%;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         justify-items: center;
     }
     ul {
-        width: 75%;
+        width: 70%;
         display: grid;
         grid-template-rows: 5rem 1fr;
         grid-template-columns: 1fr;

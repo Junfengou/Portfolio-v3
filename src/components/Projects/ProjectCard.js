@@ -43,7 +43,7 @@ const CardStyles = styled.li`
 
     .card {
         display: grid;
-        width: 18vw;
+        width: 30rem;
         height: 44.5rem;
         perspective: 150rem;
         -moz-perspective: 150rem;
