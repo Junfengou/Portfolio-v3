@@ -16,6 +16,15 @@ const TechnologyStyles = styled.section`
         justify-content: center;
         align-items: center;
         padding: 3rem 0;
+
+        h1 {
+            font-size: var(--text-xl);
+            font-weight: var(--weight-bold);
+        }
+
+        p {
+            font-size: var(--text-md);
+        }
     }
     .techs {
         width: 70%;

@@ -15,6 +15,15 @@ const ProjectStyles = styled.div`
         align-items: center;
         flex-direction: column;
         gap: 1.5rem;
+
+        h1 {
+            font-size: var(--text-xl);
+            font-weight: var(--weight-bold);
+        }
+
+        p {
+            font-size: var(--text-md);
+        }
     }
 
     .contents {

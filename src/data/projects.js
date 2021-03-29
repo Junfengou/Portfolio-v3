@@ -13,7 +13,10 @@ const projectData = [
         stack: [
             react,
             javascript,
-            styled
+            styled,
+            gatsby,
+            graphql,
+            mongodb
         ]
     },
     {

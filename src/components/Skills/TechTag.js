@@ -3,21 +3,18 @@ import styled from "styled-components";
 
 
 function TechTag({skill}) {
-    const { items } = skill;
-    // console.log(items);
+    
+    console.log(skill);
     return(
         <SkillItemStyles>
-            <div className="wrapper">
-                {
-                    items.map(item => (
-                        <div className="box">
-                            <div className="photo"><img src={item.logo} alt={item.title} /></div>
-                            <p>{item.title}</p>
-                        </div>
-                    ))
-                }
-            </div>
-           
+            {
+                skill.map((item, i) => (
+                    <div className="box">
+                        <div className="photo"><img src={item.logo} alt={item.title} /></div>
+                        <p>{item.title}</p>
+                    </div>
+                ))
+            }
         </SkillItemStyles>
     )
 }
@@ -28,26 +25,10 @@ const SkillItemStyles = styled.div`
     display: flex;
     justify-content: center;
     align-items: center; 
-    flex-direction:column;
+    flex-wrap: wrap;
     width: 100%;
     padding: 1rem;
-    gap: 2rem;
-    /* border: solid red; */
-
-
-    .wrapper {
-        /* display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, 1fr); */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        width: 100%;
-        gap: 2rem;
-        /* border: solid blue; */
-        
-    }
+    gap: 1rem;
 
     .box {
         display: grid;

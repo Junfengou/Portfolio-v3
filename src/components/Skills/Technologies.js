@@ -8,16 +8,18 @@ function Technologies() {
     return (
         <TechnologyStyles>
             <div className="title">
-                <h2>Skills</h2>
+                <h1>Skills</h1>
                 <p>A list of languages and frameworks I have worked with over the past years</p>
             </div>
             <div className="techs">
-            {skillsData.map((skill, i) => (
+            {skillsData.map((skill, i) => {
+                const {items} = skill
+            return (
                 <ul>
                     <h1>{skill.phrase}</h1>
-                    <TechTag skill={skill} key={i} />
+                    <TechTag skill={items} key={i} />
                 </ul>
-                ))}
+                )})}
             </div>
         </TechnologyStyles>
     )

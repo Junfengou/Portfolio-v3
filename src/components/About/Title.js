@@ -10,12 +10,19 @@ const TitleStyles = styled.div`
     align-items: center;
     font-size: var(--text-lg);
     font-weight: var(--weight-bold);
+
+    h1 {
+        font-size: var(--text-lg);
+        font-weight: var(--weight-bold);
+    }
+
+        
 `
 
 function Title() {
     return (
         <TitleStyles>
-            About Me
+            <h1>About Me</h1>
         </TitleStyles>
     )
 }
