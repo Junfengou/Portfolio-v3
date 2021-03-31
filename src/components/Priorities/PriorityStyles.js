@@ -20,7 +20,7 @@ const PriorityStyles = styled.div`
         content: "";
         grid-row: 2 / 3;
         grid-column: 1 / 2;
-        background-color: var(--color-orange);
+        background-color: var(--color-primary);
         /* width: 100%;
         height: 100%; */
     }

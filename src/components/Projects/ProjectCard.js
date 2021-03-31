@@ -3,12 +3,13 @@ import styled from "styled-components";
 import { useInView } from "react-intersection-observer"
 import ProjectCardStyles from './ProjectCardStyles';
 import TechTag from '../Skills/TechTag';
+import ActionBtn from './ActionBtn';
 
 function ProjectCard({project}) {
     const [ flip, setFlip ] = useState(false);
     const [ ref, inView ] = useInView({ threshold: 0.2, triggerOnce: true })
-    const { title, description, image, role, type, stack } = project;
-    // console.log(flip);
+    const { title, description, image, role, type, stack, buttons } = project;
+    console.log({buttons});
     return (
         <ProjectCardStyles>
             {/* <button className={`card ${inView ? "isVisible" : null} ${flip ? "flip" : null}`}
@@ -17,6 +18,8 @@ function ProjectCard({project}) {
             onClick={() => setFlip(!flip)} 
             ref={ref}> */}
             <button className={`card ${inView ? "isVisible" : null} ${flip ? "flip" : null}`}
+            onMouseEnter={() => setFlip(true)}
+            onMouseLeave={() => setFlip(false)}
             onClick={() => setFlip(!flip)} 
             ref={ref}>
                 <div className="cardSide front">
@@ -34,13 +37,19 @@ function ProjectCard({project}) {
                         <h3>{type}</h3>
                     </div>
 
-                    <div className="stacks">
+                    <div className="stack">
                         <ul>
-                            <h2>Stack I use</h2>
+                            <h2>Stack</h2>
                             <TechTag skill={stack} />
                         </ul>
                     </div>
-                    <div className="buttons">buttons</div>
+                    <div className="buttons">
+                        {
+                            buttons.map((item, i) => (
+                                <ActionBtn item={item} key={i} onFocus={() => setFlip(true)} />
+                            ))
+                        }
+                    </div>
                 </div>
             </button>
         </ProjectCardStyles>
@@ -48,5 +57,3 @@ function ProjectCard({project}) {
 }
 
 export default ProjectCard
-
-

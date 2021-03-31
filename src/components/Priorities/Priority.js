@@ -4,32 +4,35 @@ import prioritiesData from "../../data/priority"
 import styled from "styled-components";
 
 const ContentStyles = styled.div`
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    height: 20rem;
     justify-content: space-evenly;
+    align-items: center;
+    height: 20rem; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content max-content 1fr;
+    gap: 2rem;
+    justify-items: center;
     align-items: center;
     padding: 4rem;
     text-align: center;
     height: 30rem;
     background: white;
-    /* border-radius: var(--radius-lg); */
-    /* box-shadow: var(--shadow-3); */
     border: 1px solid var(--color-grey);
     img {
         height: 8rem;
         object-fit: contain;
     }
-    /* display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    height: 30rem;
-    padding: 4rem 4rem 5rem;
-    row-gap: 0.6rem;
-    text-align: center;
-    background-color: white;
-    border: solid blue; */
+
+    h1 {
+        font-size: var(--text-lg);
+        font-weight: var(--weight-bold);
+    }
+
+    p {
+        font-size: var(--text-sm);
+    }
 `
 
 const Priority = ({item}) => {

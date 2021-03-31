@@ -14,11 +14,14 @@ const GlobalStyles = createGlobalStyle`
 
 		--color-orange: #FFC331;
 		--color-purple: #CDB4DB;
+		--color-blue: #318CFE;
 
 		--color-book: #A259FF;
 		--color-course: #EA4335;
 		--color-conference: #2BA977;
 		--color-employment: #1F9CF0;
+
+		--color-primary: var(--color-blue);
 
    // ------------------------------------------>
 

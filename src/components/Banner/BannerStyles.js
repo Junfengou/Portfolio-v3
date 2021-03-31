@@ -6,7 +6,7 @@ const BannerStyles = styled.section`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background: var(--color-orange);
+    background: var(--color-primary);
 
     .socials {
         width: 100%;

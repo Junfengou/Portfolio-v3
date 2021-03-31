@@ -22,3 +22,8 @@ export const csharp = {
     logo: require('./typescript.svg'),
     title: "Typescript"
  }
+
+ export const sanity = {
+   logo: require('./sanity.svg'),
+   title: "Sanity"
+}

@@ -1,18 +1,17 @@
 import React from 'react'
 import styled from "styled-components";
-
+import { useInView } from "react-intersection-observer"
 
 function TechTag({skill}) {
-    
-    console.log(skill);
+    const [ ref, inView ] = useInView({ threshold: 0.6, triggerOnce: true })
     return(
-        <SkillItemStyles>
+        <SkillItemStyles ref={ref} >
             {
                 skill.map((item, i) => (
-                    <div className="box">
+                    <li className={`box ${inView ? "isVisible" : null}`} key={i}>
                         <div className="photo"><img src={item.logo} alt={item.title} /></div>
                         <p>{item.title}</p>
-                    </div>
+                    </li>
                 ))
             }
         </SkillItemStyles>
@@ -29,6 +28,7 @@ const SkillItemStyles = styled.div`
     width: 100%;
     padding: 1rem;
     gap: 1rem;
+    
 
     .box {
         display: grid;
@@ -39,11 +39,19 @@ const SkillItemStyles = styled.div`
         height: 3.3rem;
         width: 15rem;
         background: white;
+        opacity: 0;
         /* border-radius: var(--radius-md); */
 
         img {
             height: 2rem;
         }
+
+        
+    }
+
+    .isVisible {
+        animation: fadeIn 1s forwards;
+        
     }
 
     .photo {
@@ -54,6 +62,25 @@ const SkillItemStyles = styled.div`
         width: 100%;
         background: var(--color-grey-light);
     }
+
+    
+
+
+    @keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    40% {
+        opacity: 0.6;
+        transform: translateX(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+    
 
     
 `

@@ -6,15 +6,15 @@ import {contextAPI, css, html, javascript , react, styled} from "../img/love"
 
 export const skillsData = [
     {  
-       phrase: "Techs I love",
+       phrase: "Technologies I love",
        items: [ html, css, javascript, react, contextAPI, styled ]
     },
     {
-       phrase: "Techs I familiar with",
+       phrase: "familiar with...",
        items: [ rest, gatsby, graphql, mongodb, nextjs, python, django]
     },
     {
-       phrase: "Techs I'm exploring",
+       phrase: "and learning...",
        items: [ csharp, dotnet, sql, tailwind, typescript ]
     }
  ]

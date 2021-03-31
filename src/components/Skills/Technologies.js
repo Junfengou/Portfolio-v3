@@ -1,17 +1,21 @@
 import React from 'react'
-import { skillsData } from '../../data/skills'
 import TechnologyStyles from './TechnologyStyles'
 import TechTag from './TechTag'
+import { skillsData } from '../../data/skills'
+import { useInView } from "react-intersection-observer"
+
 
 
 function Technologies() {
+    const [ ref, inView ] = useInView({ threshold: 0.6, triggerOnce: true })
+
     return (
         <TechnologyStyles>
             <div className="title">
                 <h1>Skills</h1>
                 <p>A list of languages and frameworks I have worked with over the past years</p>
             </div>
-            <div className="techs">
+            <div className={`techs ${inView ? "isVisible" : null}`} ref={ref}>
             {skillsData.map((skill, i) => {
                 const {items} = skill
             return (

@@ -49,9 +49,9 @@ const ProjectCardStyles = styled.li`
         .back {
             display: grid;
             transform: rotateY(180deg);
-            grid-template-rows: 10rem 1fr max-content;
+            grid-template-rows: 8rem 1fr max-content;
             justify-items: center;
-            background-color: var(--color-orange);
+            background-color: var(--color-primary);
             padding: 2rem;
         }
 
@@ -114,14 +114,33 @@ const ProjectCardStyles = styled.li`
     /*---------------------------------------------------------- */
     /* Backside */
 
-    .heading{
+    .heading {
         text-align: start;
         margin-bottom: 2rem;
         width: 100%;
-        border: solid red;
+
+        h2 {
+            font-size: var(--text-lg);
+            font-weight: var(--weight-bold); 
+            margin-bottom: 0.2rem;
+        }
+
+        h3 {
+            font-size: var(--text-lg);
+        }
     }
 
+  
 
+    .buttons {
+
+        width: 20rem;
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
 `
 export default ProjectCardStyles;
