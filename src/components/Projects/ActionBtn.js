@@ -2,7 +2,6 @@ import React from 'react'
 import styled from "styled-components";
 
 function ActionBtn({item}) {
-    console.log(item);
     return (
         <ButtonStyle>
             <a className="content" href={`${item.link}`} target="_blank" rel="noopener noreferrer">

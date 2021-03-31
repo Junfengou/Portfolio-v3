@@ -54,7 +54,7 @@ const GlobalStyles = createGlobalStyle`
 		--text-sm: 1.6rem;
 		--text-md: 1.8rem;
 		--text-lg: 2rem;
-		--text-xl: 2.8rem;
+		--text-xl: 2.3rem;
 
 	// ------------------------------------------>
 }

@@ -50,7 +50,7 @@ const ProjectCardStyles = styled.li`
         .back {
             display: grid;
             transform: rotateY(180deg);
-            grid-template-rows: 5rem 1fr max-content;
+            grid-template-rows: 7rem 1fr max-content;
             justify-items: center;
             background-color: var(--color-primary);
             padding: 2rem;
@@ -127,7 +127,7 @@ const ProjectCardStyles = styled.li`
         }
 
         h3 {
-            font-size: var(--text-lg);
+            font-size: var(--text-sm);
         }
     }
 

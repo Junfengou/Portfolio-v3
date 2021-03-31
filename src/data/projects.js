@@ -61,6 +61,7 @@ const projectData = [
         description: "This is an API built with C# and .NET framework about SQL Commands",
         image: sqlcmd,
         type: 'Personal Project',
+        progress: "Work in progress!",
         stack: [
             csharp, dotnet, sql,
         ],
@@ -69,11 +70,6 @@ const projectData = [
                 text: "GitHub",
                 link: "https://github.com/Junfengou/Sql-Api-Dotnet",
                 icon: <DiGithubBadge />
-            },
-            {
-                text: "Work in progress!",
-                link: "#",
-                icon: <FiExternalLink />
             }
         ]
     },

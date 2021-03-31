@@ -8,8 +8,7 @@ import ActionBtn from './ActionBtn';
 function ProjectCard({project}) {
     const [ flip, setFlip ] = useState(false);
     const [ ref, inView ] = useInView({ threshold: 0.8, triggerOnce: true })
-    const { title, description, image, role, type, stack, buttons } = project;
-    console.log({buttons});
+    const { title, description, image, progress, type, stack, buttons } = project;
     return (
         <ProjectCardStyles>
             {/* <button className={`card ${inView ? "isVisible" : null} ${flip ? "flip" : null}`}
@@ -33,6 +32,7 @@ function ProjectCard({project}) {
                 <div className="cardSide back">
                     <div className="heading">
                         <h2>{type}</h2>
+                        <h3>{progress}</h3>
                     </div>
 
                     <div className="stack">
