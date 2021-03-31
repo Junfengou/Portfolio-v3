@@ -3,6 +3,7 @@ import styled from "styled-components"
 const ProjectCardStyles = styled.li`
     list-style : none;
 
+
     .card {
         display: grid;
         width: 30rem;
@@ -15,6 +16,8 @@ const ProjectCardStyles = styled.li`
         outline: none;
         border: none;
         opacity: 0;
+
+
         /* border-radius: var(--radius-sm);
         box-shadow: var(--shadow-1); */
 

@@ -9,6 +9,7 @@ function ProjectCard({project}) {
     const [ flip, setFlip ] = useState(false);
     const [ ref, inView ] = useInView({ threshold: 0.8, triggerOnce: true })
     const { title, description, image, progress, type, stack, buttons } = project;
+    console.log(stack);
     return (
         <ProjectCardStyles>
             {/* <button className={`card ${inView ? "isVisible" : null} ${flip ? "flip" : null}`}

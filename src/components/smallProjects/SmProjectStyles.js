@@ -35,6 +35,7 @@ const SmProjectStyles = styled.div`
         justify-content: center;
         align-items: center;
         width: 100%;
+        
     }
 
     .wrapper {
@@ -46,6 +47,7 @@ const SmProjectStyles = styled.div`
         width: 50vw;
         max-width: 120rem;
         gap: 2rem;
+
     }
 `
 export default SmProjectStyles;
