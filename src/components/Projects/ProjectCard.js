@@ -7,7 +7,7 @@ import ActionBtn from './ActionBtn';
 
 function ProjectCard({project}) {
     const [ flip, setFlip ] = useState(false);
-    const [ ref, inView ] = useInView({ threshold: 0.2, triggerOnce: true })
+    const [ ref, inView ] = useInView({ threshold: 0.8, triggerOnce: true })
     const { title, description, image, role, type, stack, buttons } = project;
     console.log({buttons});
     return (
@@ -18,8 +18,7 @@ function ProjectCard({project}) {
             onClick={() => setFlip(!flip)} 
             ref={ref}> */}
             <button className={`card ${inView ? "isVisible" : null} ${flip ? "flip" : null}`}
-            onMouseEnter={() => setFlip(true)}
-            onMouseLeave={() => setFlip(false)}
+            
             onClick={() => setFlip(!flip)} 
             ref={ref}>
                 <div className="cardSide front">
@@ -33,8 +32,7 @@ function ProjectCard({project}) {
 
                 <div className="cardSide back">
                     <div className="heading">
-                        <h2>{role}</h2>
-                        <h3>{type}</h3>
+                        <h2>{type}</h2>
                     </div>
 
                     <div className="stack">

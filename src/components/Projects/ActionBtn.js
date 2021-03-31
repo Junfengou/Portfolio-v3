@@ -38,8 +38,8 @@ const ButtonStyle = styled.div`
     }
 
     h5 {
-        font-size: 1rem;
-        margin-bottom: 0.5rem;        
+        font-size: var(--text-sm);
+        margin-bottom: 0.2rem;        
      }
 
     .icon {
@@ -52,6 +52,18 @@ const ButtonStyle = styled.div`
 
         p {
             margin-top: 0.2rem;
+        }
+
+        @media only screen and (max-width: 1000px) {
+            width: 40px;
+        }   
+    }
+
+    @media only screen and (max-width: 1000px) {
+        width: 14rem;
+        height: 35px; 
+        h5 {
+            font-size: var(--text-sm);
         }
     }
 `

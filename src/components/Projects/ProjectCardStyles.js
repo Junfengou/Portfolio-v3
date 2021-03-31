@@ -14,6 +14,7 @@ const ProjectCardStyles = styled.li`
         background-color: transparent;
         outline: none;
         border: none;
+        opacity: 0;
         /* border-radius: var(--radius-sm);
         box-shadow: var(--shadow-1); */
 
@@ -49,7 +50,7 @@ const ProjectCardStyles = styled.li`
         .back {
             display: grid;
             transform: rotateY(180deg);
-            grid-template-rows: 8rem 1fr max-content;
+            grid-template-rows: 5rem 1fr max-content;
             justify-items: center;
             background-color: var(--color-primary);
             padding: 2rem;

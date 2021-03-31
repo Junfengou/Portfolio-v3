@@ -2,13 +2,9 @@ import React, { useEffect, useState } from 'react'
 import PriorityStyles from "./PriorityStyles"
 import prioritiesData from "../../data/priority"
 import styled from "styled-components";
+import { useInView } from 'react-intersection-observer';
 
 const ContentStyles = styled.div`
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 20rem; */
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: max-content max-content 1fr;
@@ -20,6 +16,15 @@ const ContentStyles = styled.div`
     height: 30rem;
     background: white;
     border: 1px solid var(--color-grey);
+    /* border: solid red; */
+    & > * {
+        opacity: 0;
+    }
+
+    .isVisible {
+        animation: fadeIn 1s ease-in forwards;
+    } 
+
     img {
         height: 8rem;
         object-fit: contain;
@@ -33,15 +38,22 @@ const ContentStyles = styled.div`
     p {
         font-size: var(--text-sm);
     }
+
+     @keyframes fadeIn {
+        to {
+            opacity: 1;
+        }
+    } 
 `
 
 const Priority = ({item}) => {
     const { title, content } = item;
+    const [ref, inView] = useInView({ threshold: 0.4, triggerOnce: true})
     return(
-        <ContentStyles>
-            <img src={item.icon} alt={item.altText} />
-            <h1>{title}</h1>
-            <p>{content}</p>
+        <ContentStyles ref={ref}>
+            <img src={item.icon} alt={item.altText} className={`${inView ? "isVisible" : null}`} />
+            <h1 className={`${inView ? "isVisible" : null}`}>{title}</h1>
+            <p className={`${inView ? "isVisible" : null}`}>{content}</p>
         </ContentStyles>
     )
 }

@@ -7,11 +7,11 @@ import { useInView } from "react-intersection-observer"
 
 
 function Technologies() {
-    const [ ref, inView ] = useInView({ threshold: 0.6, triggerOnce: true })
+    const [ ref, inView ] = useInView({ threshold: 0.2, triggerOnce: true })
 
     return (
         <TechnologyStyles>
-            <div className="title">
+            <div className={`title ${inView ? "titleIsVisible" : null}`}>
                 <h1>Skills</h1>
                 <p>A list of languages and frameworks I have worked with over the past years</p>
             </div>

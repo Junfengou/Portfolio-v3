@@ -66,7 +66,6 @@ const BannerStyles = styled.section`
     }
 
     .quotes {
-        padding: 2rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -77,11 +76,23 @@ const BannerStyles = styled.section`
         opacity: 0;
         transform: translateY(6px);
         animation: fadeUp 0.7s ease forwards 4s;
+        text-align: center;
+        /* border: solid red; */
+
+        h1 {
+            font-size: var(--text-md);
+            color: var(--color-white);
+        }
+
+        p {
+            font-size: var(--text-md);
+            color: var(--color-white);
+        }
 
         @media only screen and (max-width: 1000px) {
             font-size: 1rem;
-            margin: 0 3rem 3rem 3rem;
-            padding: 1rem;
+            /* margin: 0 3rem 3rem 3rem; */
+            padding: 1rem 6rem;
         }
 
         @media only screen and (max-width: 700px) {

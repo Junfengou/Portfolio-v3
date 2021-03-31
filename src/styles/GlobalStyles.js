@@ -50,7 +50,7 @@ const GlobalStyles = createGlobalStyle`
 		--weight-rg: 400;
 		--weight-bold: 550;
 
-		--text-xs: 1.2rem;
+		--text-xs: 1.3rem;
 		--text-sm: 1.6rem;
 		--text-md: 1.8rem;
 		--text-lg: 2rem;

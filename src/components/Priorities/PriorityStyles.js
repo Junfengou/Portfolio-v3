@@ -37,12 +37,13 @@ const PriorityStyles = styled.div`
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         justify-self: center;
-        width: 50%;
+        width: 75rem;
 
-        @media only screen and (max-width: 910px) {
+
+        @media only screen and (max-width: 1000px) {
             grid-template-columns: 1fr;
             grid-template-rows: repeat(3, 1fr);
-            width: 55%;
+            width: 60%;
         }
 
        

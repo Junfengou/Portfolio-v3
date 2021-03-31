@@ -32,8 +32,8 @@ function Banner() {
             </div>
             
             <div className="quotes">
-                <h1>{quote.quote}</h1>
-                <p>{quote.author}</p>
+                <h1>{`" ${quote.quote} "`}</h1>
+                <p>{`- ${quote.author}`}</p>
             </div>
         </BannerStyles>
     )

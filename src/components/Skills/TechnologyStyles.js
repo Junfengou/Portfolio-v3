@@ -6,7 +6,7 @@ const TechnologyStyles = styled.section`
     justify-content: space-evenly;
     align-items: center;
     background: var(--color-primary);
-    padding: 2rem;
+    padding: 5rem;
 
     .title {
         width: 100%;
@@ -19,19 +19,22 @@ const TechnologyStyles = styled.section`
         width: 50vw;
         max-width: 60rem;
         color: white;
+        
 
         h1 {
             font-size: var(--text-xl);
             font-weight: var(--weight-bold);
+            opacity: 0;
         }
 
         p {
             font-size: var(--text-md);
             text-align: center;
+            opacity: 0;
         }
     }
     .techs {
-        width: 70%;
+        width: 100%;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -39,7 +42,7 @@ const TechnologyStyles = styled.section`
         
     }
     ul {
-        width: 70%;
+        max-width: 50%;
         display: grid;
         grid-template-rows: 5rem 1fr;
         grid-template-columns: 1fr;
@@ -52,7 +55,16 @@ const TechnologyStyles = styled.section`
             opacity: 0;
             transform: translateY(6px);
         }
-        /* border: solid purple; */
+        
+        @media only screen and (max-width: 900px) {
+            max-width: 80%;
+        }
+    }
+
+    .titleIsVisible {
+        h1, p {
+            animation: fadeUp 0.6s forwards;
+        }
     }
 
     .isVisible {

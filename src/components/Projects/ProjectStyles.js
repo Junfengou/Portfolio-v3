@@ -15,6 +15,10 @@ const ProjectStyles = styled.div`
         align-items: center;
         flex-direction: column;
         gap: 1.5rem;
+        opacity: 0;
+        padding: 0 6rem;
+        text-align: center;
+        margin: 5rem 0;
 
         h1 {
             font-size: var(--text-xl);
@@ -34,6 +38,25 @@ const ProjectStyles = styled.div`
         width: 100%;
         max-width: 120rem;
     }
+
+    .isVisible {
+        animation: fadeIn 1s forwards;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+            transform: translateX(-50px);
+        }
+        40% {
+            opacity: 0.6;
+            transform: translateX(10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+}
 
     
 `

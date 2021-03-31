@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { useInView } from "react-intersection-observer"
 
 function TechTag({skill}) {
-    const [ ref, inView ] = useInView({ threshold: 0.6, triggerOnce: true })
+    const [ ref, inView ] = useInView({ threshold: 0.8, triggerOnce: true })
     return(
         <SkillItemStyles ref={ref} >
             {
@@ -40,13 +40,16 @@ const SkillItemStyles = styled.div`
         width: 15rem;
         background: white;
         opacity: 0;
-        /* border-radius: var(--radius-md); */
+        border-radius: var(--radius-xs);
 
         img {
             height: 2rem;
         }
 
-        
+        p {
+            font-size: var(--text-xs);
+
+        }
     }
 
     .isVisible {
@@ -67,19 +70,19 @@ const SkillItemStyles = styled.div`
 
 
     @keyframes fadeIn {
-    0% {
-        opacity: 0;
-        transform: translateX(-50px);
+        0% {
+            opacity: 0;
+            transform: translateX(-50px);
+        }
+        40% {
+            opacity: 0.6;
+            transform: translateX(10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
     }
-    40% {
-        opacity: 0.6;
-        transform: translateX(10px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
     
 
     
