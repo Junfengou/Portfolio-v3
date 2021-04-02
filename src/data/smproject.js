@@ -10,7 +10,7 @@ const smproject = [
         title: "Restaurant menu ",
         description: "Wes Bos' beginner to react course which help me tremedously on my journey",
         tech: "Stack",
-        stack: [react, css, graphql],
+        stack: [react, css, javascript],
         icon: <DiGithubBadge />,
         link: "https://github.com/Junfengou/Catch-of-the-day"
     },
@@ -26,7 +26,7 @@ const smproject = [
         title: "Weather app",
         description: "An small application I built while learning the ins and outs of REST api and fetch external information",
         tech: "Stack",
-        stack: [react, css, graphql],
+        stack: [react, css, rest],
         icon: <DiGithubBadge />,
         link: "https://github.com/Junfengou/weather-app-react"
     },
@@ -34,7 +34,7 @@ const smproject = [
         title: "Quiz app with typescript",
         description: "A small side project I built while learning the fundamental of typescript",
         tech: "Stack",
-        stack: [react, css, graphql],
+        stack: [react, css, typescript],
         icon: <DiGithubBadge />,
         link: "https://github.com/Junfengou/Quiz-app-typescript"
     },
@@ -42,7 +42,7 @@ const smproject = [
         title: "Social media site with Django",
         description: "My first ever web project built with Django both frontend and backend",
         tech: "Stack",
-        stack: [react, css, graphql],
+        stack: [python, django, css],
         icon: <FiExternalLink />,
         link: "http://marshpillow.pythonanywhere.com/"
     },

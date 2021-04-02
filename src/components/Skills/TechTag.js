@@ -48,6 +48,7 @@ const SkillItemStyles = styled.div`
 
         p {
             font-size: var(--text-xs);
+            
 
         }
     }

@@ -12,13 +12,10 @@ function ProjectCard({project}) {
     console.log(stack);
     return (
         <ProjectCardStyles>
-            {/* <button className={`card ${inView ? "isVisible" : null} ${flip ? "flip" : null}`}
+            
+            <button className={`card ${inView ? "isVisible" : null} ${flip ? "flip" : null}`}
             onMouseEnter={() => setFlip(true)}
             onMouseLeave={() => setFlip(false)}
-            onClick={() => setFlip(!flip)} 
-            ref={ref}> */}
-            <button className={`card ${inView ? "isVisible" : null} ${flip ? "flip" : null}`}
-            
             onClick={() => setFlip(!flip)} 
             ref={ref}>
                 <div className="cardSide front">
