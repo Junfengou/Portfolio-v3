@@ -12,7 +12,6 @@ const generateRandomNum = (numLength) => {
 
 function Banner() {
     const [quote, setQuote] = useState({})
-    console.log(navItems);
     
      useEffect(() => {
         setQuote(quoteData[generateRandomNum(quoteData.length)])
