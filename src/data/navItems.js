@@ -12,7 +12,7 @@ const navItems = [
     {
         icon: <LinkedinIcon />,
         link: {
-            href: "https://www.mcdonalds.com/us/en-us.html",
+            href: "https://www.linkedin.com/in/junfeng-ou-a359b41a4/",
             target: "_blank",
             rel: "noopener noreferrer",
         },
@@ -20,7 +20,7 @@ const navItems = [
     {
         icon: <GithubIcon />,
         link: {
-            href: "https://www.mcdonalds.com/us/en-us.html",
+            href: "https://github.com/Junfengou",
             target: "_blank",
             rel: "noopener noreferrer",
         },
@@ -28,7 +28,7 @@ const navItems = [
     {
         icon: <GmailIcon />,
         link: {
-            href: "https://www.mcdonalds.com/us/en-us.html",
+            href: "mailto:junfengou@gmail.com",
             target: "_blank",
             rel: "noopener noreferrer",
         }

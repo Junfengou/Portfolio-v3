@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import font from "../assets/fonts/frenchfries.woff"
 
 const GlobalStyles = createGlobalStyle`
 	:root {
@@ -60,6 +61,11 @@ const GlobalStyles = createGlobalStyle`
 	// ------------------------------------------>
 }
 
+	@font-face {
+		font-family: FrenchFries;
+		src: url(${font});
+	}
+
 	*,
 	*::after,
 	*::before {
@@ -67,7 +73,8 @@ const GlobalStyles = createGlobalStyle`
 		padding: 0;
 		box-sizing: inherit;
 
-		font-family: var(--font-text);
+		/* font-family: var(--font-text); */
+		font-family: FrenchFries, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 		color: var(--color-text);
 		font-weight: var(--weight-rg);
 	}

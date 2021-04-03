@@ -8,7 +8,7 @@ import { FiExternalLink } from "react-icons/fi"
 const smproject = [
     {
         title: "Portfolio Version 1",
-        description: "First iteration of my personal portfolio. I've learn quite of bit about frontend web since then.",
+        description: "First iteration of my personal portfolio. I've developed quite of bit of frontend skills since then.",
         tech: "Stack",
         stack: [react, styled, javascript],
         icon: <FiExternalLink />,

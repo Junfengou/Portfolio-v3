@@ -31,6 +31,7 @@ const AboutStyles = styled.div`
     h3 {
         font-size: var(--text-md);
         opacity: 0;
+        line-height: 1.4;
     }
 
     @media only screen and (max-width: 1000px) {

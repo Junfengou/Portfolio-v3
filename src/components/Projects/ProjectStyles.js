@@ -6,7 +6,7 @@ const ProjectStyles = styled.div`
     grid-template-rows: 15rem 1fr;
     justify-items: center;
     align-items: center;
-    margin: 5rem;
+    margin: 2rem 0;
     /* justify-content: center;
     align-items: center; */
 
