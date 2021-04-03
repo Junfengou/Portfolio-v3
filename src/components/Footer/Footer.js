@@ -27,15 +27,35 @@ function Footer() {
 
 export default Footer
 
+/*
+
+<div className="socials" ref={ref}>
+                <div className={`${inView ? "icons" : null}`}>
+                {
+                    navItems.map((item, i) => (
+                        <Social item={item} key={i} styleIt={`item${i}`} />
+                        // <p>hmm</p>
+                    ))
+                }
+                </div>
+            </div>
+            <div className={` ${inView ? "footerMsg" : null}`}>
+                <h2>Build using Gastby with help from ☕ and 🍵</h2>
+            </div>
+
+*/
+
+
+
 const FooterStyles = styled.div`
     
     height: 20vh;
     display: grid;
-    grid-template-rows: 1fr max-content;
+    grid-template-rows: 1fr;
     grid-template-columns: 1fr;
+    justify-items: center;
     align-items: center;
-    padding: 2rem 40rem;
-    
+
     .socials {
         display: flex;
         justify-content: center;
