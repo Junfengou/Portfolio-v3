@@ -1,10 +1,11 @@
 import React from 'react'
 import {SocialStyles} from "./SocialStyles"
 
-function Social({icon, link}) {
+function Social({item, styleIt}) {
+    console.log(styleIt);
     return (
-        <SocialStyles>
-            <a {...link}>{icon}</a>
+        <SocialStyles >
+            <a className={`${styleIt}`} {...item.link}>{item.icon}</a>
         </SocialStyles>
     )
 }

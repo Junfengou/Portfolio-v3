@@ -7,7 +7,15 @@ import { FiExternalLink } from "react-icons/fi"
 
 const smproject = [
     {
-        title: "Restaurant menu ",
+        title: "Portfolio Version 1",
+        description: "First iteration of my personal portfolio. I've learn quite of bit about frontend web since then.",
+        tech: "Stack",
+        stack: [react, styled, javascript],
+        icon: <FiExternalLink />,
+        link: "https://jundiscoverweb.netlify.app/"
+    },
+    {
+        title: "Restaurant menu",
         description: "Wes Bos' beginner to react course which help me tremedously on my journey",
         tech: "Stack",
         stack: [react, css, javascript],

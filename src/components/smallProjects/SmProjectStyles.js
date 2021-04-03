@@ -78,6 +78,6 @@ const SmProjectStyles = styled.div`
             opacity: 1;
             transform: translateX(0);
         }
-}
+    }
 `
 export default SmProjectStyles;

@@ -4,29 +4,31 @@ import { GrTooltip, GrGithub } from "react-icons/gr"
 import { BsFillPersonLinesFill } from "react-icons/bs"
 import { MdWork } from "react-icons/md"
 
+import { GithubIcon, GmailIcon, LinkedinIcon } from "../img/icons"
+
 
 
 const navItems = [
     {
-        icon: <BsFillPersonLinesFill />,
+        icon: <LinkedinIcon />,
         link: {
-            href: "#",
+            href: "https://www.mcdonalds.com/us/en-us.html",
             target: "_blank",
             rel: "noopener noreferrer",
         },
     },
     {
-        icon: <GrGithub />,
+        icon: <GithubIcon />,
         link: {
-            href: "#",
+            href: "https://www.mcdonalds.com/us/en-us.html",
             target: "_blank",
             rel: "noopener noreferrer",
         },
     },
     {
-        icon: <GrTooltip />,
+        icon: <GmailIcon />,
         link: {
-            href: "#",
+            href: "https://www.mcdonalds.com/us/en-us.html",
             target: "_blank",
             rel: "noopener noreferrer",
         }

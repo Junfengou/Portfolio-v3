@@ -3,8 +3,8 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyles = createGlobalStyle`
 	:root {
 		--color-github: #000000;
-		--color-gmail: #d44638;
-		--color-linkedin: #2867b2;
+		--color-gmail: #e2afff;
+		--color-linkedin: #caf0f8;
 
 		--color-grey: #37322E;
 		--color-grey-light: #DFD7D7;
@@ -15,6 +15,7 @@ const GlobalStyles = createGlobalStyle`
 		--color-orange: #FFC331;
 		--color-purple: #CDB4DB;
 		--color-blue: #318CFE;
+		--color-red: #dc2f02;
 
 		--color-book: #A259FF;
 		--color-course: #EA4335;

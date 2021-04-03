@@ -81,7 +81,7 @@ const ProjectCard = styled.div`
     }
 
     span {
-        color: var(--color-gmail);
+        color: var(--color-red);
     }
 
     .flip {

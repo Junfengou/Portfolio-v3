@@ -8,10 +8,12 @@ const BannerStyles = styled.section`
     align-items: center;
     background: var(--color-primary);
 
+   
+
     .socials {
         width: 100%;
         display: flex;
-        justify-content: flex-end;
+        /* justify-content: flex-end; */
     }
 
     .socials {
@@ -24,7 +26,7 @@ const BannerStyles = styled.section`
             &:nth-child(2) {
                 transform: translateX(-4.2rem);
                 animation: secondSocialIn 2s forwards 4s;
-            }
+            } 
             &:nth-child(1) {
                 animation: thirdSocialIn 2s forwards 4s;
             }
@@ -35,6 +37,10 @@ const BannerStyles = styled.section`
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        h5 {
+            border: solid red;
+        }
     }
 
     .line {
@@ -71,7 +77,7 @@ const BannerStyles = styled.section`
         justify-content: center;
         align-items: center;
         gap: 1.5rem;
-        margin-bottom: 3rem;
+        margin-bottom: 5rem;
 
         opacity: 0;
         transform: translateY(6px);

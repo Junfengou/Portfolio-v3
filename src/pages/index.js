@@ -6,6 +6,8 @@ import Priority from '../components/Priorities/Priority'
 import Technologies from '../components/Skills/Technologies'
 import Projects from '../components/Projects/Projects'
 import SmProject from '../components/smallProjects/SmProject'
+import Contact from '../components/Footer/Contact'
+import Footer from '../components/Footer/Footer'
 
 function index() {
 	return (
@@ -17,6 +19,8 @@ function index() {
 			<Technologies />
 			<Projects />
 			<SmProject />
+			<Contact />
+			<Footer />
 		</div>
 	)
 }
