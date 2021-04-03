@@ -6,7 +6,7 @@
     The second iteration of my personal portfolio, built with Gatsby and host on Netlify.
 </p>
 
-![Application](gatsby/src/img/Portfolio.png)
+![Application](src/img/Portfolio.png)
 
 ## To run it locally on your PC
 
