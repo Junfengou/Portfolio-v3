@@ -6,6 +6,8 @@
     The second iteration of my personal portfolio, built with Gatsby and host on Netlify.
 </p>
 
+![Application](gatsby/src/images/Portfolio.png)
+
 ## To run it locally on your PC
 
 1. Download the file
