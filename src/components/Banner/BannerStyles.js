@@ -7,7 +7,6 @@ const BannerStyles = styled.section`
     justify-content: space-between;
     align-items: center;
     background: var(--color-primary);
-
    
 
     .socials {
@@ -19,16 +18,24 @@ const BannerStyles = styled.section`
     .socials {
         li {
             opacity: 0;
+            &:nth-child(4) {
+                transform: translateX(-12.6rem);
+                animation: firstSocialIn 2s forwards 4s;
+                border: solid red;
+            }
             &:nth-child(3) {
                 transform: translateX(-8.4rem);
-                animation: firstSocialIn 2s forwards 4s;
+                animation: secondSocialIn 2s forwards 4s;
+                border: solid blue;
             }
             &:nth-child(2) {
                 transform: translateX(-4.2rem);
-                animation: secondSocialIn 2s forwards 4s;
+                animation: thirdSocialIn 2s forwards 4s;
+                border: solid purple;
             } 
             &:nth-child(1) {
-                animation: thirdSocialIn 2s forwards 4s;
+                animation: fourthSocialIn 2s forwards 4s;
+                border: solid green;
             }
         }
     }
@@ -115,25 +122,25 @@ const BannerStyles = styled.section`
         }
     }
 
-    @keyframes firstSocialIn {
+    @keyframes firstSocialIn  {
         0% {
-            transform: translateX(-8.4rem);
+            transform: translateX(-12.6rem);
             opacity: 0;
         }
         20% {
-            transform: translateX(-8.4rem);
+            transform: translateX(-12.6rem);
             opacity: 1;
         }
         40% {
-            transform: translateX(-4.2rem);
+            transform: translateX(-8.4rem);
             opacity: 1;
         }
         60% {
-            transform: translateX(-4.2rem);
+            transform: translateX(-8.4rem);
             opacity: 1;
         }
         80% {
-            transform: translateX(0rem);
+            transform: translateX(-4.2rem);
             opacity: 1;
         }
         100% {
@@ -144,12 +151,16 @@ const BannerStyles = styled.section`
 
     @keyframes secondSocialIn {
         0% {
-            transform: translateX(-4.2rem);
+            transform: translateX(-8.4rem);
+            opacity: 0;
+        }
+        20% {
+            transform: translateX(-8.4rem);
             opacity: 0;
         }
         40% {
             transform: translateX(-4.2rem);
-            opacity: 0;
+            opacity: 1;
         }
         60% {
             transform: translateX(-4.2rem);
@@ -166,6 +177,29 @@ const BannerStyles = styled.section`
     }
 
     @keyframes thirdSocialIn {
+        0% {
+            transform: translateX(-4.2rem);
+            opacity: 0;
+        }
+        40% {
+            transform: translateX(-4.2rem);
+            opacity: 0;
+        }
+        60% {
+            transform: translateX(-2.1rem);
+            opacity: 0;
+        }
+        80% {
+            transform: translateX(0rem);
+            opacity: 1;
+        }
+        100% {
+            transform: translateX(0rem);
+            opacity: 1;
+        }
+    }
+
+    @keyframes fourthSocialIn {
         0% {
             opacity: 0;
         }

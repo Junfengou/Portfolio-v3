@@ -32,7 +32,15 @@ const navItems = [
             target: "_blank",
             rel: "noopener noreferrer",
         }
-    }
+    },
+    {
+        icon: <GithubIcon />,
+        link: {
+            href: "https://github.com/Junfengou",
+            target: "_blank",
+            rel: "noopener noreferrer",
+        },
+    },
 ];
    
 

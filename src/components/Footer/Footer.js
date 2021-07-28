@@ -3,9 +3,11 @@ import { useInView } from 'react-intersection-observer'
 import styled from "styled-components"
 import navItems from '../../data/navItems'
 import Social from '../Social/Social'
+import {gatsby} from "../../img/familiar"
 
 function Footer() {
     const [ ref, inView ] = useInView({ threshold: 0.2, triggerOnce: true })
+    
     return (
         <FooterStyles>
             <div className="socials" ref={ref}>
@@ -19,7 +21,7 @@ function Footer() {
                 </div>
             </div>
             <div className={` ${inView ? "footerMsg" : null}`}>
-                <h2>Build using Gastby with help from ☕ and 🍵</h2>
+                <h2>Build using <img src={gatsby.logo} alt={gatsby.title} /> with help from ☕ and 🍵</h2>
             </div>
         </FooterStyles>
     )
@@ -87,6 +89,12 @@ const FooterStyles = styled.div`
         align-items: center;
         margin-bottom: 2rem;
         animation: fadeUp 1s ease-in forwards;
+    }
+
+    img {
+        height: 1.7rem;
+        object-fit: contain;
+
     }
 
     @keyframes firstSocialIn {

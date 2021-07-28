@@ -3,7 +3,7 @@ import {SocialStyles} from "./SocialStyles"
 
 function Social({item, styleIt}) {
     return (
-        <SocialStyles >
+        <SocialStyles>
             <a className={`${styleIt}`} {...item.link}>{item.icon}</a>
         </SocialStyles>
     )

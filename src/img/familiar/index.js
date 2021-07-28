@@ -33,5 +33,10 @@
         title: "RestAPI"
      }
 
+     export const vue = {
+      logo: require('./vue.svg'),
+      title: "Vuejs"
+   }
+
 
  

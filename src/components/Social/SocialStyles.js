@@ -9,6 +9,7 @@ export const SocialStyles = styled.li`
     transform: scale(1);
     font-size: var(--text-xl);
     margin: 1rem 0.5rem;
+
     
 
     a {
