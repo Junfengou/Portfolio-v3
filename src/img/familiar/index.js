@@ -15,12 +15,12 @@
 
      export const mongodb  = {
         logo: require('./mongodb.svg'),
-        title: "MongoDB"
+        title: "Mongo DB"
      }
 
      export const nextjs = {
         logo: require('./nextjs.svg'),
-        title: "Nextjs"
+        title: "Next JS"
      }
 
      export const python = {
@@ -28,15 +28,24 @@
         title: "Python"
      }
 
-     export const rest = {
-        logo: require('./rest.svg'),
-        title: "RestAPI"
-     }
+   export const rest = {
+      logo: require('./api.svg'),
+      title: "Rest API"
+   }
 
      export const vue = {
       logo: require('./vue.svg'),
-      title: "Vuejs"
+      title: "Vue JS"
    }
 
+   export const nuxt = {
+      logo: require('./nuxtjs.svg'),
+      title: "Nuxt JS"
+   }
+
+   export const typescript = {
+      logo: require('./typescript.svg'),
+      title: "Typescript"
+   }
 
  

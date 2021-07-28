@@ -1,6 +1,6 @@
-import {django, gatsby, graphql, mongodb, nextjs, python, rest, vue} from "../img/familiar"
+import {django, gatsby, graphql, mongodb, nextjs, typescript, rest, vue, nuxt} from "../img/familiar"
 
-import {csharp, dotnet, sql, tailwind, typescript} from "../img/learning"
+import {csharp, dotnet, sql, tailwind} from "../img/learning"
 
 import {contextAPI, css, html, javascript , react, styled, reactNative} from "../img/love"
 
@@ -11,10 +11,10 @@ export const skillsData = [
     },
     {
        phrase: "familiar with...",
-       items: [ rest, gatsby, graphql, mongodb, nextjs, vue]
+       items: [ rest, graphql, gatsby, nextjs, mongodb, vue, nuxt, typescript]
     },
     {
        phrase: "and learning...",
-       items: [ csharp, dotnet, sql, tailwind, typescript ]
+       items: [ csharp, dotnet, sql, tailwind ]
     }
  ]

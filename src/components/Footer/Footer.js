@@ -63,7 +63,6 @@ const FooterStyles = styled.div`
         justify-content: center;
         align-items: center;
 
-
         .icons {
             display: flex;
             li {

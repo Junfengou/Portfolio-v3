@@ -1,6 +1,6 @@
 import React from 'react'
-import {django, gatsby, graphql, mongodb, nextjs, python, rest} from "../img/familiar"
-import {csharp, dotnet, sql, tailwind, typescript, sanity} from "../img/learning"
+import {django, gatsby, graphql, mongodb, nextjs, python, rest, typescript} from "../img/familiar"
+import {csharp, dotnet, sql, tailwind, sanity} from "../img/learning"
 import {contextAPI, css, html, javascript , react, styled} from "../img/love"
 import { DiGithubBadge } from "react-icons/di"
 import { FiExternalLink } from "react-icons/fi"

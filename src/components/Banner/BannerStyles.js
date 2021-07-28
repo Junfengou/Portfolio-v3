@@ -18,24 +18,16 @@ const BannerStyles = styled.section`
     .socials {
         li {
             opacity: 0;
-            &:nth-child(4) {
-                transform: translateX(-12.6rem);
-                animation: firstSocialIn 2s forwards 4s;
-                border: solid red;
-            }
             &:nth-child(3) {
-                transform: translateX(-8.4rem);
-                animation: secondSocialIn 2s forwards 4s;
-                border: solid blue;
+            transform: translateX(-8.4rem);
+            animation: firstSocialIn 2s forwards;
             }
             &:nth-child(2) {
                 transform: translateX(-4.2rem);
-                animation: thirdSocialIn 2s forwards 4s;
-                border: solid purple;
+                animation: secondSocialIn 2s forwards;
             } 
             &:nth-child(1) {
-                animation: fourthSocialIn 2s forwards 4s;
-                border: solid green;
+                animation: thirdSocialIn 2s forwards;
             }
         }
     }
@@ -124,23 +116,23 @@ const BannerStyles = styled.section`
 
     @keyframes firstSocialIn  {
         0% {
-            transform: translateX(-12.6rem);
+            transform: translateX(-8.4rem);
             opacity: 0;
         }
         20% {
-            transform: translateX(-12.6rem);
+            transform: translateX(-8.4rem);
             opacity: 1;
         }
         40% {
-            transform: translateX(-8.4rem);
+            transform: translateX(-4.2rem);
             opacity: 1;
         }
         60% {
-            transform: translateX(-8.4rem);
+            transform: translateX(-4.2rem);
             opacity: 1;
         }
         80% {
-            transform: translateX(-4.2rem);
+            transform: translateX(0rem);
             opacity: 1;
         }
         100% {

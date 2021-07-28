@@ -18,10 +18,6 @@ export const csharp = {
     title: "Tailwind"
  }
  
- export const typescript = {
-    logo: require('./typescript.svg'),
-    title: "Typescript"
- }
 
  export const sanity = {
    logo: require('./sanity.svg'),
