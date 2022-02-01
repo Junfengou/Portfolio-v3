@@ -1,33 +1,33 @@
 import React from 'react'
-import {block18, git, sqlcmd} from "../img/projects"
-import {django, gatsby, graphql, mongodb, nextjs, python, typescript} from "../img/familiar"
+import {block18, git, eventvesta} from "../img/projects"
+import {django, gatsby, graphql, mongodb, nextjs, python, typescript, ruby, jquery} from "../img/familiar"
 import {csharp, dotnet, sql, tailwind, sanity} from "../img/learning"
-import {contextAPI, css, html, javascript , react, styled} from "../img/love"
+import {contextAPI, css, html, javascript , react, styled, reactNative} from "../img/love"
 import { DiGithubBadge } from "react-icons/di"
 import { FiExternalLink } from "react-icons/fi"
 
 const projectData = [
     {
-        title: "GitHub Creeper",
-        description: "An web application I created in the early days of learning React and bunch of other fun stuff.",
-        image: git,
-        type: 'Personal project',
+        title: "Event Vesta",
+        description: "Online event platform and mobile app that can help you discover awesome events in your area",
+        image: eventvesta,
+        type: 'Professional project',
         stack: [
-            react,
+            ruby,
+            jquery,
             javascript,
             css,
-            contextAPI,
-            styled
+            reactNative
         ],
         buttons: [
             {
-                text: "GitHub",
-                link: "https://github.com/Junfengou/Github-Clone-Dark-react",
-                icon: <DiGithubBadge />
+                text: "Website",
+                link: "https://eventvesta.com/",
+                icon: <FiExternalLink />
             },
             {
-                text: "Visit site",
-                link: "https://githubcreeper.netlify.app/",
+                text: "Mobile app",
+                link: "https://mobileapp.eventvesta.com/",
                 icon: <FiExternalLink />
             }
         ]
@@ -57,6 +57,31 @@ const projectData = [
         ]
     },
     {
+        title: "GitHub Creeper",
+        description: "An web application I created in the early days of learning React and bunch of other fun stuff.",
+        image: git,
+        type: 'Personal project',
+        stack: [
+            react,
+            javascript,
+            css,
+            contextAPI,
+            styled
+        ],
+        buttons: [
+            {
+                text: "GitHub",
+                link: "https://github.com/Junfengou/Github-Clone-Dark-react",
+                icon: <DiGithubBadge />
+            },
+            {
+                text: "Visit site",
+                link: "https://githubcreeper.netlify.app/",
+                icon: <FiExternalLink />
+            }
+        ]
+    },
+    /* {
         title: "Learn Sql with Me!",
         description: "This is an API built with C# and .NET framework about SQL Commands",
         image: sqlcmd,
@@ -72,7 +97,7 @@ const projectData = [
                 icon: <DiGithubBadge />
             }
         ]
-    },
+    }, */
 
 ];
 

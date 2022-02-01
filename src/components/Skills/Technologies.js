@@ -20,7 +20,7 @@ function Technologies() {
                 const {items} = skill
             return (
                 <ul>
-                    <h1>{skill.phrase}</h1>
+                    <h1 style={{fontSize: "2.1rem"}}>{skill.phrase}</h1>
                     <TechTag skill={items} key={i} />
                 </ul>
                 )})}

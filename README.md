@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-    The second iteration of my personal portfolio, built with Gatsby and host on Netlify.
+    The second iteration of my personal portfolio, built with Gatsby and hosted on Netlify.
 </p>
 
 ![Application](src/img/Portfolio.png)

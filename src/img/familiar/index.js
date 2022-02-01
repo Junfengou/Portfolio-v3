@@ -48,4 +48,14 @@
       title: "Typescript"
    }
 
+   export const ruby = {
+      logo: require('./ruby.svg'),
+      title: "Ruby on Rails"
+   }
+
+   export const jquery = {
+      logo: require('./jquery.svg'),
+      title: "Jquery"
+   }
+
  

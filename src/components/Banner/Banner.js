@@ -31,7 +31,7 @@ function Banner() {
             <div className="main">
                 <Name />
                 <div className="line" />
-                <h2 className="title">Frontend Web Developer</h2>
+                <h2 className="title">Web Developer</h2>
             </div>
             
             <div className="quotes">

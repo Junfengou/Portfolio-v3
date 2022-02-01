@@ -28,13 +28,13 @@ function ProjectCard({project}) {
 
                 <div className="cardSide back">
                     <div className="heading">
-                        <h2>{type}</h2>
+                        <h2 style={{color: "#fff", fontSize: "2.6rem"}}>{type}</h2>
                         <h3>{progress}</h3>
                     </div>
 
                     <div className="stack">
                         <ul>
-                            <h2>Stack</h2>
+                            <h2 style={{color: "#fff"}}>Stack</h2>
                             <TechTag skill={stack} />
                         </ul>
                     </div>

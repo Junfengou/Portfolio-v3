@@ -28,9 +28,14 @@ export const contextAPI = {
    title: "React Native"
 }
 
-
  export const styled = {
     logo: require('./styled.svg'),
     title: "Styled-Component"
  }
+
+
+ export const postgresql = {
+   logo: require('./postgresql.svg'),
+   title: "PostgresQL"
+}
 
