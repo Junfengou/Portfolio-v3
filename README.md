@@ -23,3 +23,9 @@
    ```sh
    npm start
    ```
+
+4. Master is now locked
+
+   ```sh
+   To change this, go to -> Settings -> Branches -> Branch Protection Rules
+   ```
