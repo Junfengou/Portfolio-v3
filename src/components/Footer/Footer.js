@@ -15,7 +15,6 @@ function Footer() {
                 {
                     navItems.map((item, i) => (
                         <Social item={item} key={i} styleIt={`item${i}`} />
-                        // <p>hmm</p>
                     ))
                 }
                 </div>
@@ -28,25 +27,6 @@ function Footer() {
 }
 
 export default Footer
-
-/*
-
-<div className="socials" ref={ref}>
-                <div className={`${inView ? "icons" : null}`}>
-                {
-                    navItems.map((item, i) => (
-                        <Social item={item} key={i} styleIt={`item${i}`} />
-                        // <p>hmm</p>
-                    ))
-                }
-                </div>
-            </div>
-            <div className={` ${inView ? "footerMsg" : null}`}>
-                <h2>Build using Gastby with help from ☕ and 🍵</h2>
-            </div>
-
-*/
-
 
 
 const FooterStyles = styled.div`

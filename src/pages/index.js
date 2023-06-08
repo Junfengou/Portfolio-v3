@@ -17,7 +17,6 @@ function index() {
 			<meta charSet="utf-8" />
         	<title>Junfeng Ou</title>
 			</Helmet>
-
 			<Banner />
 			<Title />
 			<About />
