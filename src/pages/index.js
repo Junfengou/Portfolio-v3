@@ -24,7 +24,7 @@ function index() {
 			<Technologies />
 			<Projects />
 			<SmProject />
-			<Contact />
+			<Contact msg={"Let's build something together! 🔨"} colorSwap={false}  />
 			<Footer />
 		</div>
 	)

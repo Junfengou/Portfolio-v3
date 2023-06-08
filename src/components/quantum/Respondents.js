@@ -1,31 +1,28 @@
 import React from 'react'
 import styled from "styled-components"
-import {keyworddetection} from "../../img/projects"
+import {managerorgtree} from "../../img/projects"
 
-function KeywordDetection() {
+
+function Respondents() {
   return (
-    <BlueSectionInfoStyles>
-        <div className={`title`}>
-            <h1>Some of the projects I've worked on at Quantum Workplace</h1>
-            <h2>Keyword Detection (React + ASP.NET)</h2>
+    <WhiteSectionInfoStyles>
+        <div className="title">
+            <h1>Manager Org Tree (React + ASP.NET)</h1>
             <ImgStyles>
-              <img src={keyworddetection} alt="kd" />
+              <img src={managerorgtree} alt="mot" />
             </ImgStyles>
             <div className="orderedList">
               <ol>
-                  <li>CRUD functionality for user to manage keywords</li>
-                  <li>Excel file import for easy access</li>
-                  <li>Table sort by ascending and descending order</li>
-                  <li>Button toggle for whether the comment is useful or not</li>
-                  <li>Pagination to switch between pages</li>
+                  <li>Tree-like structure to show the corporation hierarchy </li>
+                  <li>Easy to navigate and fast response rate</li>
               </ol>
             </div>
         </div>
-    </BlueSectionInfoStyles>
+    </WhiteSectionInfoStyles>
   )
 }
 
-export default KeywordDetection
+export default Respondents
 
 const ImgStyles = styled.section`
   height: 40rem; /* Set the desired height */
@@ -49,13 +46,12 @@ const ImgStyles = styled.section`
     }
 `
 
-const BlueSectionInfoStyles = styled.div`
+const WhiteSectionInfoStyles = styled.div`
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    background: var(--color-primary);
     padding: 5rem;
+    gap: 2rem;
 
     .title {
         width: 100%;
@@ -64,19 +60,16 @@ const BlueSectionInfoStyles = styled.div`
         gap: 1.5rem;
         justify-content: center;
         align-items: center;
-        padding: 3rem 0;
         width: 50vw;
         max-width: 60rem;
-        
         
 
         h1 {
             font-size: var(--text-xl);
-            color: white;
             font-weight: var(--weight-bold);
         }
 
-        h2 {
+        p {
             font-size: var(--text-md);
             text-align: center;
         }
@@ -90,7 +83,6 @@ const BlueSectionInfoStyles = styled.div`
           font-size: var(--text-md);
           text-align: left;
           padding: 0.5rem 0;
-          color: white;
         }
     }
 `

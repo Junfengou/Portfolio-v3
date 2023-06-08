@@ -19,9 +19,9 @@ function Technologies() {
             {skillsData.map((skill, i) => {
                 const {items} = skill
             return (
-                <ul>
+                <ul key={i}>
                     <h1 style={{fontSize: "2.1rem"}}>{skill.phrase}</h1>
-                    <TechTag skill={items} key={i} />
+                    <TechTag skill={items} />
                 </ul>
                 )})}
             </div>

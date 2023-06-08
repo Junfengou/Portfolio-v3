@@ -1,11 +1,12 @@
 import React from 'react'
 import styled from "styled-components"
+import { Link } from "gatsby"
 
-function Contact() {
+function Contact({msg, link, colorSwap}) {
     return (
-        <ContactStyles>
+        <ContactStyles colorSwap={colorSwap}>
             <div className="wrapper">
-                <h1>Let's build something together! 🔨</h1>
+                {link != null ? <Link style={{ textDecoration: 'none' }} to={link}><h1>{msg}</h1></Link> : <h1>{msg}</h1>}
             </div>
         </ContactStyles>
     )
@@ -17,13 +18,12 @@ const ContactStyles = styled.div`
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 100%;
-    /* border: solid green; */
 
     &:after {
         content: "";
         grid-row: 1 / 2;
         grid-column: 1 / 2;
-        background-color: var(--color-primary);
+        background-color: ${props => props.colorSwap === true ? '#ffffff' : '#318CFE'};
         z-index: -1;
     }
 
@@ -31,9 +31,6 @@ const ContactStyles = styled.div`
         content: "";
         grid-row: 2 / 3;
         grid-column: 1 / 2;
-        
-        /* width: 100%;
-        height: 100%; */
     }
 
     .wrapper {
@@ -50,7 +47,6 @@ const ContactStyles = styled.div`
         row-gap: 0.4rem;
         padding: 3rem 0;
         justify-self: center;
-        /* border: solid red; */
         width: 70rem;
         color: white;
         border-radius: var(--radius-sm);
