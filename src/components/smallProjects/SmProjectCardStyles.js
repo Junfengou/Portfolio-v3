@@ -94,6 +94,16 @@ const ProjectCard = styled.div`
         }
     }
 
+    .flip-back {
+        .front {
+            transform: rotateY(0deg);
+        }
+
+        .back {
+            transform: rotateY(180deg);
+        }
+    }
+
     .animate {
         animation: fadeUp 1s ease-in forwards;
     }
