@@ -81,6 +81,9 @@ const projectData = [
             }
         ]
     },
+
+    // Older projects....Probably best to comment them out instead of deleting them.
+
     // {
     //     title: "GitHub Creeper",
     //     description: "An web application I created in the early days of learning React and bunch of other fun stuff.",

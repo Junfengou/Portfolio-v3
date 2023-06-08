@@ -15,6 +15,14 @@ const smproject = [
         link: "https://jundiscoverweb.netlify.app/"
     },
     {
+        title: "GitHub Creeper",
+        description: "An web application I created in the early days of learning React and bunch of other fun stuff.",
+        tech: "Stack",
+        stack: [react, javascript, contextAPI],
+        icon: <FiExternalLink />,
+        link: "https://githubcreeper.netlify.app/"
+    },
+    {
         title: "Restaurant menu",
         description: "Wes Bos' beginner to react course which help me tremedously on my journey",
         tech: "Stack",
@@ -46,14 +54,17 @@ const smproject = [
         icon: <DiGithubBadge />,
         link: "https://github.com/Junfengou/Quiz-app-typescript"
     },
-    {
-        title: "Social media site with Django",
-        description: "My first ever web project built with Django both frontend and backend",
-        tech: "Stack",
-        stack: [python, django, css],
-        icon: <FiExternalLink />,
-        link: "http://marshpillow.pythonanywhere.com/"
-    },
+
+    // Older projects....Probably best to comment them out instead of deleting them.
+
+    // {
+    //     title: "Social media site with Django",
+    //     description: "My first ever web project built with Django both frontend and backend",
+    //     tech: "Stack",
+    //     stack: [python, django, css],
+    //     icon: <FiExternalLink />,
+    //     link: "http://marshpillow.pythonanywhere.com/"
+    // },
     
 ]
 
