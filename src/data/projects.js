@@ -20,11 +20,11 @@ const projectData = [
             sql
         ],
         buttons: [
-            {
-                text: "Company website",
-                link: "https://www.quantumworkplace.com/",
-                icon: <FiExternalLink />
-            },
+            // {
+            //     text: "Company website",
+            //     link: "https://www.quantumworkplace.com/",
+            //     icon: <FiExternalLink />
+            // },
             {
                 text: "Project showcase",
                 link: "/quantum",
