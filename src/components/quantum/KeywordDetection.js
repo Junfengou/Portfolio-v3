@@ -29,10 +29,10 @@ export default KeywordDetection
 
 const ImgStyles = styled.section`
   height: 40rem; /* Set the desired height */
-  width: 110%; /* Let the width adjust based on the aspect ratio */
+  width: 150%; /* Let the width adjust based on the aspect ratio */
   object-fit: cover; /* Maintain the aspect ratio and fill the container */
-  border: solid 2px black;
-  border-radius: 2rem;
+  border: solid 1px black;
+  /* border-radius: 2rem; */
   position: relative;
   display: inline-block;
   overflow: hidden;

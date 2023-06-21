@@ -1,20 +1,19 @@
 import React from 'react'
 import styled from "styled-components"
-import {managerorgtree} from "../../img/projects"
+import {survey_users} from "../../img/projects"
 
 
 function Respondents() {
   return (
     <WhiteSectionInfoStyles>
         <div className="title">
-            <h1>Manager Org Tree (React + ASP.NET)</h1>
+            <h1>Users Management Page (React - Class Component)</h1>
             <ImgStyles>
-              <img src={managerorgtree} alt="mot" />
+              <img src={survey_users} alt="users" />
             </ImgStyles>
             <div className="orderedList">
               <ol>
-                  <li>Tree-like structure to show the corporation hierarchy </li>
-                  <li>Easy to navigate and fast response rate</li>
+                  <li>Update and debug content</li>
               </ol>
             </div>
         </div>
@@ -26,10 +25,11 @@ export default Respondents
 
 const ImgStyles = styled.section`
   height: 40rem; /* Set the desired height */
-  width: 110%; /* Let the width adjust based on the aspect ratio */
+  width: 150%; /* Let the width adjust based on the aspect ratio */
+  /* max-width: 100%; */
   object-fit: cover; /* Maintain the aspect ratio and fill the container */
-  border: solid 2px black;
-  border-radius: 2rem;
+  border: solid 1px black;
+  /* border-radius: 2rem; */
   position: relative;
   display: inline-block;
   overflow: hidden;

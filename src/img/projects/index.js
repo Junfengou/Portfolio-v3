@@ -15,4 +15,5 @@ export const survey_participants = require("./survey/survey_participants.png")
 export const survey_schedule = require("./survey/survey_schedule.png")
 export const survey_review = require("./survey/survey_review.png")
 export const survey_preview = require("./survey/survey_preview.png")
+export const survey_users = require("./users.png")
 
