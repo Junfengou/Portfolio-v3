@@ -3,6 +3,9 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import { javascript } from '../../img/love';
 import styled from 'styled-components';
+import {
+    BriefcaseIcon
+  } from "@heroicons/react/24/outline";
 
 function Experience() {
   return (
@@ -15,7 +18,7 @@ function Experience() {
                 contentArrowStyle={{ borderRight: '7px solid  #1b7fd1' }}
                 date="2020 - 2020"
                 iconStyle={{ background: '#FFC331', color: '#fff' }}
-                // icon={<javascript />}
+                icon={<BriefcaseIcon />}
             >
                 <h3 className="vertical-timeline-element-title">Student Web Developer </h3>
                 <h4 className="vertical-timeline-element-subtitle">University of Omaha Nebraska</h4>
@@ -33,7 +36,7 @@ function Experience() {
                 contentArrowStyle={{ borderRight: '7px solid  #1b7fd1' }}
                 date="2020 - 2022"
                 iconStyle={{ background: '#FFC331', color: '#fff' }}
-                // icon={javascript}
+                icon={<BriefcaseIcon/>}
             >
                 <h3 className="vertical-timeline-element-title">Fullstack Web/Mobile Developer</h3>
                 <h4 className="vertical-timeline-element-subtitle">Event Vesta</h4>
@@ -55,7 +58,7 @@ function Experience() {
                 contentArrowStyle={{ borderRight: '7px solid  #1b7fd1' }}
                 date="2022 - 2023"
                 iconStyle={{ background: '#FFC331', color: '#fff' }}
-                // icon={javascript}
+                icon={<BriefcaseIcon/>}
             >
                 <h3 className="vertical-timeline-element-title">Fullstack Web Developer</h3>
                 <h4 className="vertical-timeline-element-subtitle">Quantum Workplace</h4>
