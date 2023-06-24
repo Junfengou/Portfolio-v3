@@ -9,8 +9,8 @@ function Projects() {
     return (
         <ProjectStyles ref={ref}>
             <div className={`title ${inView ? "isVisible" : null}`}>
-                <h1>Projects</h1>
-                <p>Applying my knowledge and skills over the years to create something fun and exciting</p>
+                <h1>Professional and Personal Projects</h1>
+                <p>Some of the stuff I've worked on over the years</p>
             </div>
             <ul className="contents">
             {projectData.map((project, i) => (

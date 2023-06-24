@@ -1,7 +1,7 @@
 {
-  "name": "slicks-slices-frontend",
+  "name": "my-portfolio",
   "private": true,
-  "description": "Slick Serves the Sweetest Slices",
+  "description": "My Portfolio",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -40,6 +40,7 @@
     "react-icons": "^4.2.0",
     "react-intersection-observer": "^8.31.0",
     "react-responsive-carousel": "^3.2.23",
+    "react-vertical-timeline-component": "^3.6.0",
     "styled-components": "^5.2.0"
   },
   "devDependencies": {
@@ -57,9 +58,5 @@
     "eslint-plugin-react-hooks": "^4.1.2",
     "esm": "^3.2.25",
     "prettier": "^2.1.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wesbos/slicks-slices"
   }
 }

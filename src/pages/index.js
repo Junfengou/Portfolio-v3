@@ -4,6 +4,7 @@ import Title from "../components/About/Title"
 import About from '../components/About/About'
 import Priority from '../components/Priorities/Priority'
 import Technologies from '../components/Skills/Technologies'
+import Experience from "../components/Projects/Experience"
 import Projects from '../components/Projects/Projects'
 import SmProject from '../components/smallProjects/SmProject'
 import Contact from '../components/Footer/Contact'
@@ -23,7 +24,8 @@ function index() {
 			<Priority />
 			<Technologies />
 			<Projects />
-			<SmProject />
+			{/* <SmProject /> */}
+			<Experience />
 			<Contact msg={"Let's build something together! 🔨"} colorSwap={false}  />
 			<Footer />
 		</div>
