@@ -49,7 +49,7 @@ function Experience() {
                     <li>Search and filter content within the application</li>
                     <li>Integrate Google event schema and Sitemap for better SEO</li>
                 </ul>
-                <p>React Native, Ruby on Rails, GraphQL, PostgreSQL, TypeScript, Bootstrap</p>
+                <p>React Native, Ruby on Rails, MVC, GraphQL, PostgreSQL, TypeScript, Bootstrap, Jira</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
@@ -84,7 +84,9 @@ function Experience() {
                     <li>Participated in code deployment and production release</li>
                     <li>Participated in weekly developer show and share to learn from other developers</li>
                 </ul>
-                <p>.NET, C#, React, TypeScript, SSMS, SQL</p>
+                <p className='skills'>.NET, C#, React, TypeScript, MVC, JQuery, Octopus Deploy, Entity Framework,
+                    Microsoft SQL Server Management Studio, SQL Server, Redis Desktop Manager, 
+                    Azure DevOps, NewRelics, Asana</p>
             </VerticalTimelineElement>
         </VerticalTimeline>
     </WrapperStyle>
@@ -110,17 +112,21 @@ const WrapperStyle = styled.div`
     h3 {
         margin: 0 0 0.5rem 0;
         color: var(--color-orange);
+        font-size: var(--text-sm);
     }
 
     h4 {
         margin: 0 0 1rem 0.5rem;
+        font-size: var(--text-xs);
     }
 
     li {
         margin: 0.5rem 0 1rem 1.5rem;
+        font-size: var(--text-xs);
         
     }
     p {
         color: var(--color-orange);
+        font-size: var(--text-xs);
     }
 `
