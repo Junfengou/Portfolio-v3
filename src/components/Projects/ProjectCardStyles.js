@@ -38,7 +38,7 @@ const ProjectCardStyles = styled.li`
         
         .front {
             display: grid;
-            grid-template-rows: 20rem 1fr max-content;
+            grid-template-rows: 13rem 1fr max-content;
             background-color: white;
 
             img {
@@ -47,6 +47,9 @@ const ProjectCardStyles = styled.li`
                 object-fit: cover;
                 -webkit-clip-path: polygon(0 0, 0 90%, 100% 100%, 100% 0);
                 clip-path: polygon(0 0, 0 90%, 100% 100%, 100% 0);
+            }
+            .highlighter {
+                color: var(--color-purple)
             }
         }
 

@@ -3,6 +3,7 @@ export const git = require("./git.gif");
 export const sqlcmd = require("./SqlCmd.png");
 export const eventvesta = require("./eventvesta.png")
 export const quantumworkplace = require("./qw.jpg")
+export const weirdoshop = require("./weirdo_shop.png")
 
 // Quantum Workplace images
 export const keyworddetection = require("./keyword_detection.png")

@@ -10,7 +10,7 @@ export const csharp = {
 
  export const sql = {
     logo: require('./sql.svg'),
-    title: "SQL"
+    title: "SQL Server"
  }
 
  export const tailwind = {

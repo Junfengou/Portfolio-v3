@@ -8,7 +8,7 @@ import ActionBtn from './ActionBtn';
 function ProjectCard({project}) {
     const [ flip, setFlip ] = useState(false);
     const [ ref, inView ] = useInView({ threshold: 0.8, triggerOnce: true })
-    const { title, description, image, progress, type, stack, buttons } = project;
+    const { title, description, image, progress, type, stack, buttons, position } = project;
     return (
         <ProjectCardStyles>
             
@@ -21,9 +21,11 @@ function ProjectCard({project}) {
                     <img src={image} alt={title} />
                     <div className="details">
                         <h2>{title}</h2>
+                        <p className='highlighter'>{position}</p>
                         <p>{description}</p>
+                        <p className='highlighter'>{type}</p>
                     </div>
-                    <span>Hover for details</span>
+                    <span className='highlighter'>Hover for more details</span>
                 </div>
 
                 <div className="cardSide back">
@@ -34,7 +36,7 @@ function ProjectCard({project}) {
 
                     <div className="stack">
                         <ul>
-                            <h2 style={{color: "#fff"}}>Stack</h2>
+                            <h2 style={{color: "#fff"}}>Technologies</h2>
                             <TechTag skill={stack} />
                         </ul>
                     </div>

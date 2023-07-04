@@ -1,5 +1,5 @@
 import React from 'react'
-import {block18, git, eventvesta, quantumworkplace} from "../img/projects"
+import {block18, git, eventvesta, quantumworkplace, weirdoshop} from "../img/projects"
 import {django, gatsby, graphql, mongodb, nextjs, python, typescript, ruby, jquery} from "../img/familiar"
 import {csharp, dotnet, sql, tailwind, sanity} from "../img/learning"
 import {contextAPI, css, html, javascript , react, styled, reactNative} from "../img/love"
@@ -9,9 +9,10 @@ import { FiExternalLink } from "react-icons/fi"
 const projectData = [
     {
         title: "Quantum Workplace",
-        description: "Survey engagement platform that empower employers to develop better work culture",
+        description: "Built various products using technologies such as C#, .NET, React, Typescript, SQL Server, and more...",
         image: quantumworkplace,
-        type: 'Professional projects',
+        position: 'Fullstack software development',
+        type: 'Professional project',
         stack: [
             dotnet,
             csharp,
@@ -34,13 +35,14 @@ const projectData = [
     },
     {
         title: "Event Vesta",
-        description: "Online event platform and mobile app that can help you discover awesome events in your area",
+        description: "Built various products using technologies such as Ruby on Rails, React Native, Typescript, PostgresQL, and more...",
         image: eventvesta,
-        type: 'Professional projects',
+        position: 'Fullstack software development',
+        type: 'Professional project',
         stack: [
             ruby,
             jquery,
-            javascript,
+            typescript,
             css,
             reactNative
         ],
@@ -58,9 +60,36 @@ const projectData = [
         ]
     },
     {
-        title: "Block 18 Burger Joint",
-        description: "The best burger in town! This is an fullstack application I built with bunch of goodies",
+        title: "Fullstack .NET/React Shopping Site",
+        description: "Built with .NET 7 Web API, Entity Framework, React, Next JS and hosted on Azure SQL/App Service.",
+        image: weirdoshop,
+        position: 'Fullstack project',
+        type: 'Personal Project',
+        stack: [
+            react,
+            dotnet, 
+            csharp,
+            nextjs,
+            sql
+        ],
+        buttons: [
+            {
+                text: "GitHub Repo",
+                link: "https://github.com/Junfengou/Weirdo-Shop",
+                icon: <DiGithubBadge />
+            },
+            {
+                text: "Visit site",
+                link: "https://shopforweirdos.vercel.app/",
+                icon: <FiExternalLink />
+            }
+        ]
+    },
+    {
+        title: "Block 18 Burger Joint Fullstack",
+        description: "Fullstack application built with React, Gatsby, GraphQL, and Sanity",
         image: block18,
+        position: 'Fullstack project',
         type: 'Personal Project',
         stack: [
             react,
@@ -70,7 +99,7 @@ const projectData = [
         ],
         buttons: [
             {
-                text: "GitHub",
+                text: "GitHub Repo",
                 link: "https://github.com/Junfengou/Block-18",
                 icon: <DiGithubBadge />
             },

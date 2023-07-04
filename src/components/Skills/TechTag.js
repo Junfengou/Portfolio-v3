@@ -7,7 +7,7 @@ function TechTag({skill}) {
     return(
         <SkillItemStyles ref={ref} >
             {
-                skill.map((item, i) => (
+                 skill.map((item, i) => (
                     <li className={`box ${inView ? "isVisible" : null}`} key={i}>
                         <div className="photo"><img src={item.logo} alt={item.title} /></div>
                         <p>{item.title}</p>

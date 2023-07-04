@@ -7,14 +7,14 @@ import {contextAPI, css, html, javascript , react, styled, reactNative, postgres
 export const skillsData = [
     {  
        phrase: "Technologies I love",
-       items: [ react, reactNative, csharp, dotnet, typescript, sql, postgresql, rest, styled ]
+       items: [ csharp, dotnet, typescript, sql, react, reactNative, postgresql, rest, tailwind ]
     },
     {
        phrase: "familiar with...",
-      items: [ nextjs, nuxt, vue, graphql, gatsby, mongodb, ruby]
+      items: [ nextjs, nuxt, vue, graphql, styled]
     },
     {
        phrase: "and learning...",
-       items: [ tailwind, jquery ]
+       items: [ mongodb, gatsby, ruby ]
     }
  ]

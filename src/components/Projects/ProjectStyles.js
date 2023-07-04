@@ -29,6 +29,9 @@ const ProjectStyles = styled.div`
         p {
             font-size: var(--text-md);
         }
+        .highlighter {
+            color: var(--color-purple)
+        }
     }
 
     .contents {

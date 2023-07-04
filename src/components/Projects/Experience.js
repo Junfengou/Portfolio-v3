@@ -62,13 +62,27 @@ function Experience() {
             >
                 <h3 className="vertical-timeline-element-title">Fullstack Web Developer</h3>
                 <h4 className="vertical-timeline-element-subtitle">Quantum Workplace</h4>
+                <p>Fullstack application developer utilize technologies such as .NET and React to deliver great products.</p>
                 <ul>
                     <li>Convert ASP.NET core code to utilize all the capabilities React has to offer</li>
-                    <li>Implemented several key features to boost company sales and entice new customers
-to sign on. ( Keyword Detection, Survey Setup Process Overhaul, Respondent Rate,
-and more )</li>
                     <li>Cross squad collaboration to coordinate feature planning and implementation.</li>
                     <li>Engaged in code review and discussions with other developers to trade ideas.</li>
+                    <li>Implemented and developed Keyword Detection feature to help survey admins to detect naughty languages</li>
+                    <li>Delivered new survey creation experience for survey admins to construct new surveys to fit their needs</li>
+                    <li>Communicate with customer facing team to resolve production bugs</li>
+                    <li>Develop features in various different patterns such as Repository Pattern, Mediator Pattern and Entity Framework.</li>
+                    <li>Developed strong SQL skills and Server Side knowledge through building various products</li>
+                    <li>Follow the MVC pattern to develop key features</li>
+                    <li>Engaged in code review and resolve Pull Request comments</li>
+                    <li>Code refactor to improve feature performance and separation of business logics</li>
+                    <li>Task tracking and documentation using Asana</li>
+                    <li>Involve in sprint ceremonies (Task scrum, estimate, and planning)</li>
+                    <li>Error tracking using New Relics</li>
+                    <li>Solid understanding of Git Resource Control</li>
+                    <li>Effective communication between product management, developers, and quality assurance</li>
+                    <li>Assisted QA for product testing</li>
+                    <li>Participated in code deployment and production release</li>
+                    <li>Participated in weekly developer show and share to learn from other developers</li>
                 </ul>
                 <p>.NET, C#, React, TypeScript, SSMS, SQL</p>
             </VerticalTimelineElement>
