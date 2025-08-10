@@ -4,6 +4,7 @@ export const sqlcmd = require("./SqlCmd.png");
 export const eventvesta = require("./eventvesta.png")
 export const quantumworkplace = require("./qw.jpg")
 export const weirdoshop = require("./weirdo_shop.png")
+export const oneStaff = require("./oneStiff.png")
 
 // Quantum Workplace images
 export const keyworddetection = require("./keyword_detection.png")

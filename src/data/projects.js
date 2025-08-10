@@ -1,5 +1,5 @@
 import React from 'react'
-import {block18, git, eventvesta, quantumworkplace, weirdoshop} from "../img/projects"
+import {block18, git, eventvesta, quantumworkplace, weirdoshop, oneStaff} from "../img/projects"
 import {django, gatsby, graphql, mongodb, nextjs, python, typescript, ruby, jquery} from "../img/familiar"
 import {csharp, dotnet, sql, tailwind, sanity} from "../img/learning"
 import {contextAPI, css, html, javascript , react, styled, reactNative} from "../img/love"
@@ -7,6 +7,32 @@ import { DiGithubBadge } from "react-icons/di"
 import { FiExternalLink } from "react-icons/fi"
 
 const projectData = [
+        {
+            title: "OneStaff Medical",
+            description: "Built with React, NextJS, .NET, and AWS",
+            image: oneStaff,
+            position: 'Fullstack software development',
+            type: 'Professional project',
+            stack: [
+                dotnet,
+                csharp,
+                react,
+                typescript,
+                sql
+            ],
+            buttons: [
+                // {
+                //     text: "Company website",
+                //     link: "https://www.quantumworkplace.com/",
+                //     icon: <FiExternalLink />
+                // },
+                {
+                    text: "Project showcase",
+                    link: "https://www.onestaffmedical.com/",
+                    icon: <FiExternalLink />
+                }
+            ]
+        },
     {
         title: "Quantum Workplace",
         description: "Built various products using technologies such as C#, .NET, React, Typescript, SQL Server, and more...",
@@ -54,7 +80,7 @@ const projectData = [
             },
             {
                 text: "Mobile app",
-                link: "https://mobileapp.eventvesta.com/",
+                link: "https://apps.apple.com/us/app/event-vesta/id1499716599",
                 icon: <FiExternalLink />
             }
         ]
@@ -78,11 +104,11 @@ const projectData = [
                 link: "https://github.com/Junfengou/Weirdo-Shop",
                 icon: <DiGithubBadge />
             },
-            {
-                text: "Visit site",
-                link: "https://shopforweirdos.vercel.app/",
-                icon: <FiExternalLink />
-            }
+            // {
+            //     text: "Visit site",
+            //     link: "https://shopforweirdos.vercel.app/",
+            //     icon: <FiExternalLink />
+            // }
         ]
     },
     {
