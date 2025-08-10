@@ -1,6 +1,6 @@
 export const csharp = {
     logo: require('./csharp.svg'),
-    title: "C#"
+    title: "Blazor"
  }
 
  export const dotnet = {
