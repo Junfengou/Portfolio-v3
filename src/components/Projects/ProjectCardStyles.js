@@ -42,7 +42,7 @@ const ProjectCardStyles = styled.li`
             background-color: white;
 
             img {
-                height: 100%;
+                height: 130%;
                 width: 100%;
                 object-fit: cover;
                 -webkit-clip-path: polygon(0 0, 0 90%, 100% 100%, 100% 0);

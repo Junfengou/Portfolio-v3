@@ -1,8 +1,8 @@
 import React from 'react'
-import {block18, git, eventvesta, quantumworkplace, weirdoshop, oneStaff} from "../img/projects"
+import {block18, git, eventvesta, quantumworkplace, workInProgress, oneStaff} from "../img/projects"
 import {django, gatsby, graphql, mongodb, nextjs, python, typescript, ruby, jquery} from "../img/familiar"
 import {csharp, dotnet, sql, tailwind, sanity} from "../img/learning"
-import {contextAPI, css, html, javascript , react, styled, reactNative} from "../img/love"
+import {contextAPI, css, html, javascript , react, styled, reactNative, postgresql} from "../img/love"
 import { DiGithubBadge } from "react-icons/di"
 import { FiExternalLink } from "react-icons/fi"
 
@@ -86,22 +86,20 @@ const projectData = [
         ]
     },
     {
-        title: "Fullstack .NET/React Shopping Site",
-        description: "Built with .NET 7 Web API, Entity Framework, React, Next JS and hosted on Azure SQL/App Service.",
-        image: weirdoshop,
+        title: "Travel Nurse",
+        description: "Built with Blazor + Entity FrameWork + MudBlazor + PostgreSQL",
+        image: workInProgress,
         position: 'Fullstack project',
         type: 'Personal Project',
         stack: [
-            react,
             dotnet, 
             csharp,
-            nextjs,
-            sql
+            postgresql
         ],
         buttons: [
             {
                 text: "GitHub Repo",
-                link: "https://github.com/Junfengou/Weirdo-Shop",
+                link: "https://github.com/Two-Stiff/TravelNurse",
                 icon: <DiGithubBadge />
             },
             // {
