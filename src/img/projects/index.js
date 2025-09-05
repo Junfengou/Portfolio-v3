@@ -4,13 +4,9 @@ export const sqlcmd = require("./SqlCmd.png");
 export const eventvesta = require("./eventvesta.png")
 export const quantumworkplace = require("./qw.jpg")
 export const weirdoshop = require("./weirdo_shop.png")
-<<<<<<< Updated upstream
 export const oneStaff = require("./oneStiff.png")
 export const workInProgress = require("./work_in_progress.png")
 
-=======
-export const franchiseFinder = require("./franchise-finder.png")
->>>>>>> Stashed changes
 
 // Quantum Workplace images
 export const keyworddetection = require("./keyword_detection.png")

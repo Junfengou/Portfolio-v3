@@ -1,15 +1,8 @@
 import React from 'react'
-<<<<<<< Updated upstream
 import {block18, git, eventvesta, quantumworkplace, workInProgress, oneStaff} from "../img/projects"
 import {django, gatsby, graphql, mongodb, nextjs, python, typescript, ruby, jquery} from "../img/familiar"
 import {csharp, dotnet, sql, tailwind, sanity} from "../img/learning"
 import {contextAPI, css, html, javascript , react, styled, reactNative, postgresql} from "../img/love"
-=======
-import {block18, git, eventvesta, quantumworkplace, franchiseFinder} from "../img/projects"
-import {django, gatsby, graphql, mongodb, nextjs, python, typescript, ruby, jquery} from "../img/familiar"
-import {csharp, dotnet, sql, tailwind, sanity} from "../img/learning"
-import {postgresql, contextAPI, css, html, javascript , react, styled, reactNative} from "../img/love"
->>>>>>> Stashed changes
 import { DiGithubBadge } from "react-icons/di"
 import { FiExternalLink } from "react-icons/fi"
 
@@ -93,7 +86,6 @@ const projectData = [
         ]
     },
     {
-<<<<<<< Updated upstream
         title: "Travel Nurse",
         description: "Built with Blazor + Entity FrameWork + MudBlazor + PostgreSQL",
         image: workInProgress,
@@ -102,17 +94,6 @@ const projectData = [
         stack: [
             dotnet, 
             csharp,
-=======
-        title: "Franchise Finder",
-        description: "Built with Ruby on Rails and Next JS. Hosted on Netlify and Heroku",
-        image: franchiseFinder,
-        position: 'Fullstack project',
-        type: 'Personal Project',
-        stack: [
-            react,
-            ruby, 
-            nextjs,
->>>>>>> Stashed changes
             postgresql
         ],
         buttons: [
@@ -120,7 +101,6 @@ const projectData = [
             // Backend is hosted on Heroku -> juntheworkingman@gmail.com
             {
                 text: "GitHub Repo",
-<<<<<<< Updated upstream
                 link: "https://github.com/Two-Stiff/TravelNurse",
                 icon: <DiGithubBadge />
             },
@@ -129,16 +109,6 @@ const projectData = [
             //     link: "https://shopforweirdos.vercel.app/",
             //     icon: <FiExternalLink />
             // }
-=======
-                link: "https://github.com/DummiesInc/Franchise_Sidekick_V2_UI",
-                icon: <DiGithubBadge />
-            },
-            {
-                text: "Visit site",
-                link: "https://franchiesidekickui.netlify.app/",
-                icon: <FiExternalLink />
-            }
->>>>>>> Stashed changes
         ]
     },
     {
