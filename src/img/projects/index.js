@@ -6,6 +6,7 @@ export const quantumworkplace = require("./qw.jpg")
 export const weirdoshop = require("./weirdo_shop.png")
 export const oneStaff = require("./oneStiff.png")
 export const workInProgress = require("./work_in_progress.png")
+export const franchiseFinder = require("./franchise_finder.png")
 
 
 // Quantum Workplace images

@@ -1,5 +1,5 @@
 import React from 'react'
-import {block18, git, eventvesta, quantumworkplace, workInProgress, oneStaff} from "../img/projects"
+import {block18, git, eventvesta, quantumworkplace, workInProgress, oneStaff, franchiseFinder} from "../img/projects"
 import {django, gatsby, graphql, mongodb, nextjs, python, typescript, ruby, jquery} from "../img/familiar"
 import {csharp, dotnet, sql, tailwind, sanity} from "../img/learning"
 import {contextAPI, css, html, javascript , react, styled, reactNative, postgresql} from "../img/love"
@@ -81,6 +81,33 @@ const projectData = [
             {
                 text: "Mobile app",
                 link: "https://apps.apple.com/us/app/event-vesta/id1499716599",
+                icon: <FiExternalLink />
+            }
+        ]
+    },
+    {
+        title: "Franchise Finder",
+        description: "Built with Ruby on Rails, NextJs, and PostgreSQL",
+        image: franchiseFinder,
+        position: 'Fullstack project',
+        type: 'Personal Project',
+        stack: [
+            ruby,
+            postgresql,
+            react,
+            typescript
+        ],
+        buttons: [
+            // Frontend is hosted on Netlify
+            // Backend is hosted on Heroku -> juntheworkingman@gmail.com
+            {
+                text: "GitHub Repo",
+                link: "https://github.com/DummiesInc/Franchise_Sidekick_V2_UI",
+                icon: <DiGithubBadge />
+            },
+            {
+                text: "Visit site",
+                link: "https://franchiesidekickui.netlify.app/",
                 icon: <FiExternalLink />
             }
         ]
