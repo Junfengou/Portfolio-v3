@@ -107,7 +107,7 @@ const projectData = [
             },
             {
                 text: "Visit site",
-                link: "https://franchiesidekickui.netlify.app/",
+                link: "https://moowfranchisecont.netlify.app/",
                 icon: <FiExternalLink />
             }
         ]
