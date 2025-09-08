@@ -1,5 +1,7 @@
 import styled from "styled-components"
 
+// How do I update the style here so that my 
+// grid items on the second row starts from the left instead of the middle
 const ProjectCardStyles = styled.li`
     list-style : none;
 
@@ -11,12 +13,11 @@ const ProjectCardStyles = styled.li`
         perspective: 150rem;
         -moz-perspective: 150rem;
         position: relative;
-        margin: 2rem;
+        margin: 1rem;
         background-color: transparent;
         outline: none;
         border: none;
         opacity: 0;
-
 
         /* border-radius: var(--radius-sm);
         box-shadow: var(--shadow-1); */
@@ -49,7 +50,7 @@ const ProjectCardStyles = styled.li`
                 clip-path: polygon(0 0, 0 90%, 100% 100%, 100% 0);
             }
             .highlighter {
-                color: var(--color-purple)
+                color: var(--color-purple);
             }
         }
 

@@ -6,39 +6,39 @@ import {contextAPI, css, html, javascript , react, styled, reactNative, postgres
 import { DiGithubBadge } from "react-icons/di"
 import { FiExternalLink } from "react-icons/fi"
 
-const projectData = [
-        {
-            title: "OneStaff Medical",
-            description: "Built with React, NextJS, .NET, and AWS",
-            image: oneStaff,
-            position: 'Fullstack software development',
-            type: 'Professional project',
-            stack: [
-                dotnet,
-                csharp,
-                react,
-                typescript,
-                sql
-            ],
-            buttons: [
-                // {
-                //     text: "Company website",
-                //     link: "https://www.quantumworkplace.com/",
-                //     icon: <FiExternalLink />
-                // },
-                {
-                    text: "Project showcase",
-                    link: "https://www.onestaffmedical.com/",
-                    icon: <FiExternalLink />
-                }
-            ]
-        },
+export const professionalExp = [
+    {
+        title: "OneStaff Medical",
+        description: "Built with React, NextJS, .NET, and AWS",
+        image: oneStaff,
+        position: 'Fullstack software development',
+        type: 'Professional Experience',
+        stack: [
+            dotnet,
+            csharp,
+            react,
+            typescript,
+            sql
+        ],
+        buttons: [
+            // {
+            //     text: "Company website",
+            //     link: "https://www.quantumworkplace.com/",
+            //     icon: <FiExternalLink />
+            // },
+            {
+                text: "Project showcase",
+                link: "https://www.onestaffmedical.com/",
+                icon: <FiExternalLink />
+            }
+        ]
+    },
     {
         title: "Quantum Workplace",
         description: "Built various products using technologies such as C#, .NET, React, Typescript, SQL Server, and more...",
         image: quantumworkplace,
         position: 'Fullstack software development',
-        type: 'Professional project',
+        type: 'Professional Experience',
         stack: [
             dotnet,
             csharp,
@@ -64,7 +64,7 @@ const projectData = [
         description: "Built various products using technologies such as Ruby on Rails, React Native, Typescript, PostgresQL, and more...",
         image: eventvesta,
         position: 'Fullstack software development',
-        type: 'Professional project',
+        type: 'Professional Experience',
         stack: [
             ruby,
             jquery,
@@ -85,6 +85,10 @@ const projectData = [
             }
         ]
     },
+]
+
+export const passionProjects = [
+
     {
         title: "Franchise Finder",
         description: "Built with Ruby on Rails, NextJs, and PostgreSQL",
@@ -210,5 +214,3 @@ const projectData = [
     }, */
 
 ];
-
-export default projectData;

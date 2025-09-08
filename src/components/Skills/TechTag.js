@@ -28,7 +28,7 @@ const SkillItemStyles = styled.div`
     width: 100%;
     padding: 1rem;
     gap: 1rem;
-    
+    border: 'solid 2px red';
 
     .box {
         display: grid;

@@ -6,6 +6,7 @@ const AboutStyles = styled.div`
     align-items: center;
     padding: 5rem;
     gap: 2rem;
+    
 
     .wrapper {
         display: flex;

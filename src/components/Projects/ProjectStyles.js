@@ -7,8 +7,8 @@ const ProjectStyles = styled.div`
     justify-items: center;
     align-items: center;
     margin: 2rem 0;
-    /* justify-content: center;
-    align-items: center; */
+    justify-content: center;
+    align-items: center;
 
     .title {
         display: flex;
